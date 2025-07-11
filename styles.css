@@ -1,0 +1,54 @@
+body {
+    text-align: center;
+    background-color: #DED3C4;
+  }
+  
+  #level-title {
+    font-family: 'Press Start 2P', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 3rem;
+    margin:  5%;
+    color: #333;
+  }
+  
+  .container {
+    display: block;
+    width: 50%;
+    margin: auto;
+  
+  }
+  
+  .btn {
+    margin: 25px;
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+    border: 7px solid black;
+    border-radius: 20%;
+  }
+  
+  .game-over {
+    background-color: #ffd6d6;
+    opacity: 0.8;
+  }
+  
+  .red {
+    background-color: #E5989B;
+  }
+  
+  .green {
+    background-color: #A7C1A8;
+  }
+  
+  .blue {
+    background-color: #a0c4ff;
+  }
+  
+  .yellow {
+    background-color:  #fff1a5;
+  }
+  
+  .pressed {
+    box-shadow: 0 0 20px white;
+    background-color: #d3d3d3;
+  }
+  
