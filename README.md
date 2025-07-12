@@ -2,7 +2,7 @@
 
 A fun and interactive memory game built using **HTML, CSS, and JavaScript** — inspired by the classic Simon game.
 
-## 🌐 
+## 🌐 Game Trial
 👉 [Play the Game Here](https://mish04-hub.github.io/Simon_Game/)
 
 ## 🛠️ Technologies Used
