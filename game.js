@@ -8,7 +8,14 @@ var started = false;
 
 var level = 0;
 
-$(document).keypress(function() {
+// Show correct message for device
+if (/Mobi|Android|iPhone|iPad/i.test(navigator.userAgent)) {
+  $("#level-title").text("Tap anywhere to start");
+} else {
+  $("#level-title").text("Press any key to start");
+}
+
+$(document).on("keydown touchstart", function () {
   if (!started) {
 
     $("#level-title").text("Level " + level);
